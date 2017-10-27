@@ -2,10 +2,12 @@ package javavisual;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 public class frame1 extends JFrame{
     
     JLabel label1 = new JLabel("Ini label pertamaQYUh");
+    JTextField jtf1 = new JTextField();
     
     public frame1(){
         setTitle("Ini loh TITLE");
