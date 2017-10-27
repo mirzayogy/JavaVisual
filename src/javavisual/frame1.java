@@ -19,8 +19,10 @@ public class frame1 extends JFrame{
     void tampil(){
         getContentPane().setLayout(null);
         getContentPane().add(label1);
+        getContentPane().add(jtf1);
         //left top width height
         label1.setBounds(10,10,150,20);
+        jtf1.setBounds(180,10,150,20);
         setVisible(true);
     }
 }
