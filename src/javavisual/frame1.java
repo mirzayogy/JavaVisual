@@ -9,4 +9,8 @@ public class frame1 extends JFrame{
         setLocation(100,200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+    
+    void tampil(){
+        setVisible(true);
+    }
 }
