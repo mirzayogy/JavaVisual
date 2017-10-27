@@ -1,8 +1,12 @@
 package javavisual;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class frame1 extends JFrame{
+    
+    JLabel label1 = new JLabel("Ini label pertamaQYUh");
+    
     public frame1(){
         setTitle("Ini loh TITLE");
         setSize(600,400);
